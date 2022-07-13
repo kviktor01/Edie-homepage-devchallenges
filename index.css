@@ -1,0 +1,388 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-size:1.3vw;  
+  }
+  nav{
+    display: flex; 
+    justify-content: space-between;
+    padding-top:10px;
+    align-items: center;
+  }
+  nav span{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  h1{
+    margin-top:0;
+    font-size:3.5vw;
+  }
+  #main-container1{
+    margin:20px;
+    display:flex;
+    justify-content:center;
+  }
+  #first-container{
+    margin-top: 100px;
+    width:70%;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+  }
+  #main-container1 span{
+    display:block;
+    color: #2D9CDB;
+  }
+  #header-img{
+    display: block;
+    width:90vw;
+    border-radius:10px;
+    align-self: center;
+  }
+  #story-container{
+    margin-top: 40px;
+    width:40%
+  }
+  #story-container form, footer form {
+    display: inline-block;
+    background-color: #F2F2F2;
+    padding:5px 10px 5px 5px;
+    border-radius:10px;
+  }
+  #story-container form input, footer input{
+    border: none;
+    background-color: transparent;
+  }
+  #story-container form button, footer button{
+    background-color: #2D9CDB;
+    border:none;
+    padding:9px 17px;
+    border-radius:10px;
+  }
+  #main-container2{
+    margin: 150px 20px 20px 20px;
+    display:flex;
+    justify-content:center;
+  }
+  #second-container{
+    width:85%;
+    
+  }
+  #card-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 95%;
+    justify-content:center;
+    align-self:center;
+    justify-content: space-between;
+  }
+  #card-container div{
+    padding:60px;
+  }
+  #card1 button{
+    color:white;
+    font-size:25px;
+    border: none;
+    background-color:#2D9CDB;
+    border-radius: 10px;
+    
+  }
+  #card2 button{
+    background: #27AE60;
+    border-radius: 10px;
+    color:white;
+    font-size:25px;
+    border: none;
+  }
+  #card3 button{
+    background: #EB5757;
+    border-radius: 10px;
+    color:white;
+    font-size:25px;
+    border: none;
+  }
+  #card1:hover,#card2:hover,#card3:hover{
+    box-shadow:rgb(51 51 51 / 10%) 0px 10px 30px;
+    border-radius:20px;
+  }
+  #card-container .start-button{
+    background: #E0E0E0;
+    color: #828282; 
+    font-size:16px; 
+    margin-top:40px;
+    padding:10px 10px;
+  }
+  #card-container .start-button:hover{
+    background-color:#2D9CDB;
+    color:white;
+
+  }
+  #main-container3{
+    margin:20px
+  }
+  #works{
+    margin: 100px 100px;
+  }
+  #images-container{
+    display:grid;
+    width:85%;
+    margin:0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 50px;
+  }
+  #images-container img{
+    width:100%;
+    border-radius: 30px;
+  }
+  #main-container3 a{
+    position:absolute; 
+    bottom:0; 
+    right:0;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2D9CDB;
+
+  }
+  #main-container4{
+    margin:20px
+  }
+  #team-container{
+    width:85%;
+    margin:200px auto;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 100px;
+  }
+  #team-container img{
+    border-radius:20px;
+  }
+  #team-container p{
+    color:#4F4F4F;
+  }
+  #team-container span{
+    color: #EB5757;
+  }
+  #main-container5{
+    margin:20px
+  }
+  #quote-container{
+    width: 65%;
+    margin:200px auto;
+  }
+  #quote-container img{
+    border-radius:20px;
+  }
+  footer{
+    background-color: black;
+    color: white;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    scroll-behavior: smooth;
+    justify-content: space-around;
+  }
+  footer a{
+    color: white;
+    text-decoration: none;
+    display:block;
+  }
+  footer>div{
+    margin:40px;
+  }
+  #home{
+    padding:40px 60px;
+  }
+  #home a{
+    color:black;
+    text-decoration:none;
+    font-size: 20px;
+  }
+  .nav-links-container a{
+    padding: 0 20px;
+  }
+  #icon{
+    display: none;
+  }
+  #img-1{
+    margin-top:150px;
+  }
+  #img-3{
+    margin-top:150px;
+  }
+  #img-4{
+    margin-top:-10%
+  }
+  #services{
+    width:50%;
+  }
+  #clients{
+    font-size:3.5vw;
+  }
+  #image-container{
+    display:grid;
+    grid-template-columns: 1.1fr 1fr;
+    column-gap: 20px;
+    padding-left: 50px;
+  }
+  #image-container img{
+    max-width: 100%;
+
+  }
+  #image-container #person1{
+    text-align: right;
+    align-self: center;
+  }
+  #team-text{
+    display: flex;
+  }
+  #team-text>div{
+    align-self: center;
+  }
+  
+  @media screen and (max-width:1000px) {
+    body {
+      font-size:1.5vw;  
+    }
+    #card-container div{
+      padding:30px;
+    }
+  }
+  @media screen and (max-width:750px){
+   
+    .nav-links-container a{
+      display:none;
+    }
+    #icon{
+      display:block;
+      font-size: 3.5vw;
+
+    }
+    #icon:hover{
+      cursor:pointer;
+      transform: scale(1.2);
+    }
+    body {
+      font-size:2vw;  
+    }
+    #services{
+      width:75%;
+    }
+    #story-container{
+
+      width:80%
+    }
+    #team-container{
+      grid-template-columns: 1fr;
+      width:100%;
+      margin: 50px auto;
+    }
+    #image-container{
+      padding:0;
+    }
+  }
+  @media screen and (max-width:650px){
+    #images-container{
+      display:grid;
+      width:100%;
+      margin:0 auto;
+      grid-template-columns: 1fr ;
+      grid-row-gap: 20px;
+    }
+    #main-container3 #see-more{
+      display:block;
+      position: relative;
+      margin-top:30px;
+      font-size: 3.5vw;
+    }
+    #img-1{
+      margin-top:0px;
+    }
+    #img-3{
+      margin-top:0px;
+    }
+    #img-4{
+      margin-top:0;
+    }
+    body {
+      font-size:2vw;  
+    }
+  }
+  @media screen and (max-width:550px){
+    #card-container{
+      grid-template-columns: 1fr 1fr;
+    }
+    #services{
+      width:100%;
+    }
+    #story-container{
+
+      width:100%
+    }
+    #quote-container{
+      width: 90%;
+      margin:100px auto;
+    }
+    footer{
+      grid-template-columns:1fr;
+    }
+    footer>div{
+      margin: 20px;
+    }
+
+    footer>div:first-child{
+      font-size:3.5vw;
+    }
+    #icon{
+      font-size: 4.5vw;
+    }
+  }
+  @media screen and (max-width:450px) {
+    body {
+      font-size:2.5vw;  
+    }
+    footer>div:first-child{
+      font-size:4vw;
+    }
+    h1{
+      
+      font-size:4.5vw;
+    }
+    #clients{
+      font-size:4.5vw;
+    }
+    #works{
+      margin:50px;
+    }
+    #card-container{
+      grid-template-columns:1fr;
+    }
+    #icon{
+
+      font-size: 4.5vw;
+    }
+    
+  }
+  @media screen and (max-width:350px) {
+    body {
+      font-size:3.5vw;  
+    }
+    footer>div:first-child{
+      font-size:5.5vw;
+    }
+    h1{
+      
+      font-size:6.5vw;
+    }
+    #clients{
+      font-size:6.5vw;
+    }
+    #icon{
+      display:block;
+      font-size: 7vw;
+    }
+    #works{
+      margin:25px;
+    }
+    
+  }
